@@ -1,0 +1,74 @@
+body {
+  background-color: hsl(214, 47%, 23%);
+  margin: 2%;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  font-weight: bold;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(214, 47%, 23%);
+  flex-wrap: wrap;
+  gap: 50px;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+
+.rock {
+  background-color: bisque;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+.rock:hover {
+  background-color: gray;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  box-shadow: -8px 1px 2px greenyellow;
+}
+
+.paper {
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+.paper:hover {
+  background-color: aqua;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  box-shadow: -8px 1px 2px palegoldenrod;
+}
+
+.scissors {
+  background-color: azure;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+.scissors:hover {
+  background-color: gold;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  box-shadow: -8px 1px 2px brown;
+}
